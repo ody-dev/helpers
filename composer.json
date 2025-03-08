@@ -1,0 +1,22 @@
+{
+  "name": "ody/helpers",
+  "description": "Helper methods & classes",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ilyas",
+      "email": "ilyas@ody.dev"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "files": [
+      "src/helpers.php"
+    ],
+    "psr-4": {
+      "Ody\\Config\\": "src/Config"
+    }
+  }
+}
