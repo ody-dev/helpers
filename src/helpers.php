@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 use DI\Container;
-use Ody\Core\Config\Config;
+use Ody\Config\Config;
 
 if (! function_exists('app')) {
     function app($abstract = null, array $parameters = [])

@@ -16,7 +16,8 @@
       "src/helpers.php"
     ],
     "psr-4": {
-      "Ody\\Config\\": "src/Config"
+      "Ody\\Config\\": "src/Config",
+      "Ody\\Monolog\\": "src/Monolog"
     }
   }
 }
