@@ -167,7 +167,7 @@ if (!function_exists('env')) {
     {
         $value = $_ENV[$key];
 
-        if ($value === false) {
+        if ($value === false || $value === null) {
             return $default;
         }
 
