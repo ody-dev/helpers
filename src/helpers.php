@@ -165,7 +165,7 @@ if (!function_exists('routes_path'))
 if (!function_exists('env')) {
     function env(string $key, mixed $default = null): string|bool|null|int
     {
-        $value = getenv($key);
+        $value = $_ENV[$key];
 
         if ($value === false) {
             return $default;
